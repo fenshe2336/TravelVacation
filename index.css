@@ -1,0 +1,91 @@
+body {
+  /*background-image: url("background.jpg");*/
+  padding: 20px;
+  margin: 0;
+  background-size: 100%;
+  background-color: whitesmoke;
+}
+h1, h2, p, ul, li {
+  font-family: Times, "Times New Roman", serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: red;
+  padding: 0;
+}
+ul.header li a {
+  color: whitesmoke;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 30px;
+  display: inline-block;
+}
+.content {
+  background-color: transparent;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
+
+.RootDiv {
+  /* background-image: url("background.jpg");  */
+  background-color: lightblue;
+  height: 90vh;
+}
+
+.HomePage {
+  background-image: url("island.jpg");
+  background-position: bottom;
+  background-color: yellow;
+  background-size: 100%;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  Height: 70vh;
+}
+
+.BookingsPage {
+  background-image: url("barobaybay.jpg"); 
+  background-position: cover;
+  background-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: black;
+  Height: 90vh;
+}
+
+.ContactPage {
+  background-color: yellow;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.DestinationPage {
+  background-image: url("taj\ mahal.jpg");
+  background-size: 100%;
+  background-position: cover;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: inline;
+  Height: 90vh;
+}
+
+.ThingsToDoPage {
+  background-image: url("camp.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.AboutUSPage {
+  background-image: url("taj\ mahal.jpg");
+  text-align: center;
+}
+
+

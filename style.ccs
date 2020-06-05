@@ -1,0 +1,118 @@
+body{
+	background-color: yellow;
+	font-family: Times, "Times New Roman", serif;
+	background-image: url("background.jpg");
+	
+}
+
+h1{
+	color: red;
+	text-align: center;
+	font-family: Helvicta, Arial,sans-serif;
+	
+}
+
+h2{
+	color: blue;
+	font-aligh: center;
+	font-family: Helvicta, Arial,sans-serif;
+	
+}
+
+h3{
+	color: red;
+	text-align: center;
+	font-style: bold;
+	
+}
+
+#h1test{
+	color: #fff;
+
+}
+
+# nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-aligh: center;
+	
+}
+
+# nav ul li {
+	display: inline;
+}
+
+# nav ul li a{
+	text-decoration: none;
+	color: green;
+	margin-left: 2.5em;
+	margin-right: 2.5em;
+	
+}
+
+# nav ul li a: hover{
+	color: orange;
+}
+
+img{
+	border: 3px solid #ff7400;
+	border-radius: 4px;
+	padding: 5px;
+	
+}
+
+
+.product{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
+
+.divImages{
+float:left;
+border-style:solid;
+border-width:3px;
+padding:2px;
+margin:5px;
+height:200px;
+width:250px;
+overflow:hidden;
+text-align:center;
+margin-top:5%;
+}
+
+img { max-width: 100%; height: auto; }
+
+body {
+background-image: url("vacation.jpg") no-repeat center center fixed;
+background-size: cover;
+
+}
+.menubar {
+overflow: hidden;
+background-color: black;
+position: absolute;
+top: 0;
+width: 100%;
+}
+
+.menubar a {
+float: left;
+display: block;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+ul li {
+background: url('serene.jpg') no-repeat left top;
+list-style-type: disc;
+height : 50px;
+padding-left: 44px;
+}
+
